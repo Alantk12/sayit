@@ -38,5 +38,11 @@ func main() {
 		fmt.Println("Employee Gender: " + employees.Employees[i].Gender)
 		fmt.Println("Employee Age: " + strconv.Itoa(employees.Employees[i].Age))
 	}
+	func main() {
+	jsonFile, err := os.Open("employee.json")
+	if err != nil {
+		fmt.Println(err)
+	}
+
 
 }
